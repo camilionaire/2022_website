@@ -19,6 +19,10 @@
     margin-top: -80px;
   }
   
+  .home > h1, .education > h1, .projects > h1, .contact > h1 {
+    font-size: 100px;
+  }
+
   .hero-container {
     background-image: url("./images/universe.jpg");
     background-position: center;
