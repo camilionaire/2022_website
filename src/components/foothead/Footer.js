@@ -18,7 +18,7 @@ function Footer() {
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="This Doesn't Work"
               className="footer-input"
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
@@ -28,26 +28,34 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/contact">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <h2>Education</h2>
+            <Link to="/contact">MS Comp Sci</Link>
+            <Link to="/">BA Mathematics</Link>
           </div>
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/contact">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <h2>Projects</h2>
+            <Link to="/contact">Forage Compass</Link>
+            <Link to="/">Kingdom of Frupal</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/contact">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <h2>Practice Sites</h2>
+            <Link to="/contact">HackerRank</Link>
+            <Link to="/">LeetCode</Link>
           </div>
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/contact">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <h2>Contact</h2>
+            {/* <Link to="https://www.linkedin.com/in/camilo-schaser-hughes/">
+              LinkedIn
+            </Link> */}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/camilo-schaser-hughes/"
+            >
+              LinkedIn
+            </a>
+            <Link to="/contact">E-Mail</Link>
           </div>
         </div>
       </div>
