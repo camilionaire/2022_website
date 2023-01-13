@@ -41,8 +41,21 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Practice Sites</h2>
-            <Link to="/contact">HackerRank</Link>
-            <Link to="/">LeetCode</Link>
+            {/* <Link to="/contact">HackerRank</Link> */}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.hackerrank.com/camilionaire"
+            >
+              HackerRank
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://leetcode.com/camilionaire/"
+            >
+              LeetCode
+            </a>
           </div>
           <div className="footer-link-items">
             <h2>Contact</h2>
@@ -51,6 +64,7 @@ function Footer() {
             </Link> */}
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/camilo-schaser-hughes/"
             >
               LinkedIn
