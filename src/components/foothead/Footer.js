@@ -34,6 +34,13 @@ function Footer() {
           </div>
           <div className="footer-link-items">
             <h2>Projects</h2>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/camilionaire"
+            >
+              GitHub
+            </a>
             <Link to="/contact">Forage Compass</Link>
             <Link to="/">Kingdom of Frupal</Link>
           </div>
@@ -70,6 +77,13 @@ function Footer() {
               LinkedIn
             </a>
             <Link to="/contact">E-Mail</Link>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://habitica.com/profile/58ade2f2-6eb3-4294-b813-9d188b5d3c52"
+            >
+              Habitica
+            </a>
           </div>
         </div>
       </div>
