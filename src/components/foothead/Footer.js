@@ -29,8 +29,8 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Education</h2>
-            <Link to="/contact">MS Comp Sci</Link>
-            <Link to="/">BA Mathematics</Link>
+            <Link to="/education">MS Comp Sci</Link>
+            <Link to="/education">BA Mathematics</Link>
           </div>
           <div className="footer-link-items">
             <h2>Projects</h2>
@@ -41,8 +41,8 @@ function Footer() {
             >
               GitHub
             </a>
-            <Link to="/contact">Forage Compass</Link>
-            <Link to="/">Kingdom of Frupal</Link>
+            <Link to="/projects">Forage Compass</Link>
+            <Link to="/projects">Kingdom of Frupal</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
