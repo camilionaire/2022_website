@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../Button";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Footer.css";
 
 function Footer() {
@@ -29,8 +30,8 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Education</h2>
-            <Link to="/education">MS Comp Sci</Link>
-            <Link to="/education">BA Mathematics</Link>
+            <Link to="/education#edu_top">MS Comp Sci</Link>
+            <Link to="/education#edu_top">BA Mathematics</Link>
           </div>
           <div className="footer-link-items">
             <h2>Projects</h2>
@@ -41,14 +42,13 @@ function Footer() {
             >
               GitHub
             </a>
-            <Link to="/projects">Forage Compass</Link>
-            <Link to="/projects">Kingdom of Frupal</Link>
+            <Link to="/projects#pro_top">Forage Compass</Link>
+            <Link to="/projects#pro_top">Kingdom of Frupal</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Practice Sites</h2>
-            {/* <Link to="/contact">HackerRank</Link> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -66,9 +66,6 @@ function Footer() {
           </div>
           <div className="footer-link-items">
             <h2>Contact</h2>
-            {/* <Link to="https://www.linkedin.com/in/camilo-schaser-hughes/">
-              LinkedIn
-            </Link> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +73,7 @@ function Footer() {
             >
               LinkedIn
             </a>
-            <Link to="/contact">E-Mail</Link>
+            <Link to="/contact#con_top">E-Mail</Link>
             <a
               target="_blank"
               rel="noopener noreferrer"

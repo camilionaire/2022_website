@@ -5,7 +5,7 @@ import Cards from "../components/cards/Cards";
 
 function Home() {
   return (
-    <div>
+    <div id="hom_top">
       <HeroSection />
       <Cards />
     </div>

@@ -4,7 +4,7 @@ import "../App.css";
 
 function Education() {
   return (
-    <div className="education">
+    <div className="education" id="edu_top">
       <h1>EDUCATION</h1>
       <p>MS Computer Science</p>
       <p>BA Mathematics</p>
