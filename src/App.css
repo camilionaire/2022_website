@@ -31,6 +31,10 @@
     color: #fff;
     font-size: 100px;
   }
+
+  .edu-hero {
+    background: url('./images/books.jpg') center center/cover no-repeat;
+  }
   
   .education {
     background-image: url("./images/books.jpg");
