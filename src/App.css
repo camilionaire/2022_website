@@ -35,6 +35,14 @@
   .edu-hero {
     background: url('./images/books.jpg') center center/cover no-repeat;
   }
+
+  .pro-hero {
+    background: url('./images/orion.jpg') center center/cover no-repeat;
+  }
+
+  .con-hero {
+    background: url('./images/castelmezzano.jpg') center center/cover no-repeat;
+  }
   
   .education {
     background-image: url("./images/books.jpg");

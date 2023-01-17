@@ -1,11 +1,20 @@
 import React from "react";
 import "../App.css";
+import "../components/BasicHero.css";
+import BasicHero from "../components/BasicHero";
 
 function Contact() {
   return (
-    <div className="contact" id="con_top">
-      <h1>CONTACT!!!</h1>
-    </div>
+    <>
+      <div id="con_top"></div>
+      <div>
+        <BasicHero
+          cls="basic-hero con-hero"
+          title="CONTACT!"
+          subheader={["Let's write some code together."]}
+        />
+      </div>
+    </>
   );
 }
 
