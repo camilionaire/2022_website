@@ -6,24 +6,24 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC destinations!</h1>
+      <h1>Check Out My Projects and a Little About Me!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src="images/math.jpg"
               text="My educational journey so far."
               label="Education"
               path="/education"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/proj.jpg"
               text="Some of the projects I've done over the years."
               label="Projects"
               path="/projects"
             />
             <CardItem
-              src="images/newPhone.png"
+              src="images/contact.png"
               text="Contact For More Information"
               label="Contact"
               path="/contact"
