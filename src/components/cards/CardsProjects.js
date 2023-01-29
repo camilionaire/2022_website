@@ -15,21 +15,21 @@ function CardsProjects() {
               src="images/math.jpg"
               text="Done with Java using OOP, went from a command line program, to input / output and finally to an Android app."
               label="Java"
-              path="/education"
+              path="https://github.com/camilionaire/Adv_Java_Summer_2022"
             />
             <CardItemTitle
               title="Full Stack Web App"
-              src="images/proj.jpg"
+              src="images/forester.jpg"
               text="3 person project utilizing Google maps API's, React, JavaScript."
               label="Web Dev"
-              path="/projects"
+              path="https://foragecompass.herokuapp.com/"
             />
             <CardItemTitle
               title="Kingdom of Frupal"
               src="images/contact.png"
               text="SCRUM leader for an OOP project utilizing C++ and the ncurses library."
               label="C++"
-              path="/contact"
+              path="https://github.com/camilionaire/copy_foo"
             />
           </ul>
         </div>
